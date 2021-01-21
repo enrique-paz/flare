@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media screen {
+	* {
+	font-family: 'Raleway', sans-serif;
+	font-weight:normal !important;
+	}
+}
+
+/* CORE STYLES */
+
+* {margin:0;padding:0;}
+
+body {font-family: 'Raleway', sans-serif;color:#333333;font-size:1.4em;padding-top: 150px;background:transparent url(images/grid-background.png) repeat-x;}
+.secondary {background-position:0 -93px;}
+.padding {padding:25px 0;}
+.no-shadow {box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;}
+.container {padding:0;position:relative}
+
+
+h1 {color:#05233a !important;font-weight:300 !important;}
+h4 {color:#05233a !important;font-weight:600 !important;margin-bottom:10px;}
+h5 {font-weight:600 !important;margin-top:25px;}
+.btn {background: -webkit-linear-gradient(#c2d4e0, #d6eaf7, #eff4f7); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#c2d4e0, #d6eaf7, #eff4f7); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#c2d4e0, #d6eaf7, #eff4f7); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#c2d4e0, #d6eaf7, #eff4f7); /* Standard syntax */
+border-color:#666666;color:#05233a;}
+
+.navbar-fixed-top {box-shadow:3px 3px 10px rgba(89,89,89,0.48);}
+
+.nav {font-size:1.2em;}
+.navbar {height:145px;background:#ffffff;border:none;padding:0}
+.navbar-brand {padding:0;height:0;}
+.navbar-nav li a:hover {color:rgba(5,35,58,1) !important;font-weight:700;}
+.navbar-nav .active a {color:rgba(5,35,58,1) !important;background:none !important;-moz-box-shadow: none !important;-webkit-box-shadow:none !important;font-weight:700;box-shadow:none !important;}
+.navbar-nav a:after {content:"|";padding-left:10px;}
+.nav li a {padding:15px 5px !important;color:#777777 !important}
+.nobar a:after {content:normal !important;}
+.nav-links {bottom:15px;right:80px;position:absolute}
+.navbar-nav li.active {-moz-box-shadow:none !important;}
+.nav .open>a {background-color:transparent !important;}
+
+/*.btn {padding:15px 5px;}*/
+.services {top:9px;font-size:.95em;}
+.line:after {content:"|";padding-left:10px;}
+.btn-default {box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;color:#666666;font-weight:600;content:"";padding-left:10px;}
+.btn-group button {background:none;border:none;}
+.btn-group button a:after {padding-left:10px;}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {background:none;border:none;box-shadow:none;-moz-box-shadow:none;-webkit-box-shadow:none;color:rgba(5,35,58,1) !important;font-weight:700;}
+.btn-group.open .dropdown-toggle {box-shadow:none}
+.dropdown-menu li a:after {content:"";padding-left:10px;}
+.dropdown-menu {border:none !important;top:120% !important;}
+.dropdown-menu li a {padding:10px !important;}
+
+a {color:rgb(5,35,58) !important;font-weight:600 !important;}
+.breadcrumb {background:none;padding-left:0;padding-right:0;}
+
+.sqnav {width:30%;height:100%;position:absolute;z-index:10;background-color:rgba(5,35,58,.5);}
+.sqnav a {color:#FFFFFF;text-decoration:none;text-shadow:#000000 3px 3px 3px;font-size:90%}
+div#block1.active, div#block2.active, div#block3.active, div#block4.active {background-color:rgba(5,35,58,1)}
+#block1:hover {background:rgba(5,35,58,1) url(../images/EastCay-rollover.jpg) no-repeat; cursor:pointer;}
+#block2:hover {background:rgba(5,35,58,1) url(../images/hydro-rollover.jpg) no-repeat; cursor:pointer;}
+#block3:hover {background:rgba(5,35,58,1) url(../images/WeberCanyon-rollover.jpg) no-repeat; cursor:pointer;}
+#block4:hover {background:rgba(5,35,58,1) url(../images/BaldRockPit-rollover.jpg) no-repeat; cursor:pointer;}
+.bannersq {width:50%;height:50%;border:5px solid #ffffff;float:left}
+.bannersq-border {border-right-width:12px}
+.bannersq.bannersq-border.left.secondarysq p, .bannersq.left.secondarysq p, .bannersq.bannersq-border.secondarysq p, .bannersq.secondarysq p {margin-top:20%;}
+.left {text-align:none;}
+.bannersq p {color:#ffffff;font-size:100%;font-weight:600;margin-top:20%;padding:20px;line-height:1em;text-align:center;}
+
+
+.leftcontainer {width:80%;padding-left:35px;padding-top:25px;display:block;}
+.projects img {float:left;margin-right:10px;margin-bottom:10px}
+.projects {width:90%}
+.main-container {padding-bottom:50px;}
+
+.footer {background-color:#05233a;color:#ffffff;padding-top:15px;}
+.col-md-2 a {color:#ffffff;display:block;border-bottom:solid 1px #FFFFFF;}
+.col-md-5 {width:33.33333% !important;display:block}
+.col-md-6 {width:60.66666% !important;}
+.col-md-4 a {color:#ffffff;}
+
+.seccarousel {height:284px;}
+.carousel-indicators {margin-left:-16%;}
+
+.featured div {float:left;min-height:107px;}
+.featured-image {width:107px;clear:both}
+.featured-text {width:160px;padding-left:10px;font-size:10px;}
+
+.btn-xs {margin-top:10px;}
+
+ul {padding-left:20px;}
+
+#associations img {margin-right:15px;}
+#awards img {display:block;float:none;}
+
+.no-float {float:none;}
+.main-margin {margin-top:25px;margin-bottom:25px;}
+.img-padding {margin:8px;}
+#flare-map {height:300px;width:400px;}
+
+.carousel-indicators li { border-radius:0;}
+
+.caret {display:none;}
+.social {position:absolute;right:25px;bottom:15px;}
+
+#employside {display:none;}
+
+
+
+@media only screen and (min-width : 320px) and (max-width: 640px){
+		
+body {padding:0 !important;}
+h1 {font-size:28px !important;}
+.navbar {position:static !important;}
+.navbar-default {background-color:#ffffff !important;border:none !important;}
+.navbar-nav li a {padding-left:15px;text-align:center}
+.navbar-nav li a:hover {color:rgba(5,35,58,1) !important;font-weight:700;background-color:#D8D8D8 !important;box-shadow:inset 1px 1px 6px #8F8F8F;}
+.nav-brand {float:none;}
+.navbar-brand img {position:relative;}
+.container {padding-left:15px;padding-right:15px;}
+.container-mobile {padding:0 !important;width:100% !important;margin:0 !important;}
+.container>.navbar-header, .container>.navbar-collapse {margin:0 !important}
+.caret {display:inline-block !important;}
+.container-fluid>.navbar-header {margin:0 auto;}
+.nav-links {top:0;position:relative;background-color: #fff;z-index:100;right:0;border:1px solid #989898;box-shadow:inset 1px 1px 6px #DCDCDC !important;}
+.navbar-nav a::after {content:"";}
+.line::after {content:"";padding:0;}
+.btn-group {width:100%;}
+button.btn.btn-default.dropdown-toggle.line.services {padding-left:15px;padding-bottom:20px;padding-top:15px;width:100%;text-align:left;margin-bottom:6px;}
+button.btn.btn-default.dropdown-toggle.line.services:hover {background-color:#D8D8D8 !important;color:rgba(5,35,58,1) !important;border-radius:0 !important;border:1px solid #989898;box-shadow:inset 3px 3px 3px #3D3D3D;}
+.seccarousel {margin-top:25px !important;}
+.navbar-toggle {float:none !important;width:100% !important;color:#05233a;font-weight:700;margin:0 !important;padding:10px 8px;border-radius:0 !important;border:1px solid #333333;background-color:#ffffff !important;}
+.secondary {background-position:0 -285px;}
+.main-margin {margin-top:0;}
+.sqnav {display:none;}
+.nobar {display:none !important;}
+.carousel-inner, .seccarousel {width:100%;}
+.carousel-inner>.item>img {max-width:none !important;}
+.carousel-indicators {display:none;}
+.seccarousel {margin-top:190px;height:auto;}
+.seccarousel img {width:170% !important;}
+.leftcontainer {display:none}
+.col-md-6 {width:90.66666%;}
+.col-md-6 img {display:block !important;}
+h1 {color:#05233a;font-weight:300;font-size:24px;}
+.logo {max-width:100%;display:block;margin:0 auto;}
+.social {display:none;}
+.padding {padding:35px 0 0;}
+.col-xs-5 {display:none;}
+
+/* SECONDARY PAGES */
+.col-md-5, .col-md-6,.col-md-12 {width:100% !important;}
+#employside {display:block;padding:10px;text-align:center;background-color:#FB0525;}
+.projects {display:block;padding:10px;text-align:center;background-color:#C2C2C2;margins:0;width:100%;}
+a#employside {color:#ffffff;text-decoration:none;}
+a.projects {color:#05233A;text-decoration:none;}
+.breadcrumb {display:none;}
+.main-container {min-height:300px;}
+.leftcontainer {display:none;}
+.projhead {display:none;}
+.breadcrumbs {display:none;}
+}
+
+/* Tablets Portrait */
+@media only screen and (min-width : 641px) and (max-width: 768px){
+	img.logo {width:65% !important;height:auto;margin-top:40px;}
+	.nav {font-size:.9em !important;}
+	.navbar-header {min-height:145px !important;}
+	.bannersq p {font-size:80% !important;}
+	.sqnav {width:40%;height:100%;position:absolute;z-index:10;background-color:rgba(5,35,58,.5);}
+	.seccarousel img {width:170% !important;height:384px !important;}
+	.col-md-5,.col-md-12 {display:block;width:100%}
+	.col-md-6 {width:76.6666%;margin-left:10px;margin-right:10px;}
+	
+}
+/* Tablets Landscape */
+@media only screen and (min-width : 769px) and (max-width: 1024px){
+	img.logo {width:80% !important;height:auto;margin-top:30px;}
+	.navbar-header {min-height:145px !important;}
+	.bannersq p {font-size:80% !important;}
+}
